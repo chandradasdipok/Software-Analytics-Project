@@ -1,0 +1,5 @@
+2016/10/15-12:50:57.762 dfc Recovering log #15
+2016/10/15-12:50:57.765 dfc Level-0 table #18: started
+2016/10/15-12:50:57.946 dfc Level-0 table #18: 117230 bytes OK
+2016/10/15-12:50:58.123 dfc Delete type=0 #15
+2016/10/15-12:50:58.124 dfc Delete type=3 #13

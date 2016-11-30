@@ -1,0 +1,6 @@
+E:\MSSE Program\MSSE 2nd Semester\Software Analytics\Code\SDAProject\SDAProject\bin\Debug\SDAProject.exe.config
+E:\MSSE Program\MSSE 2nd Semester\Software Analytics\Code\SDAProject\SDAProject\obj\Debug\SDAProject.csprojResolveAssemblyReference.cache
+E:\MSSE Program\MSSE 2nd Semester\Software Analytics\Code\SDAProject\SDAProject\bin\Debug\SDAProject.exe
+E:\MSSE Program\MSSE 2nd Semester\Software Analytics\Code\SDAProject\SDAProject\bin\Debug\SDAProject.pdb
+E:\MSSE Program\MSSE 2nd Semester\Software Analytics\Code\SDAProject\SDAProject\obj\Debug\SDAProject.exe
+E:\MSSE Program\MSSE 2nd Semester\Software Analytics\Code\SDAProject\SDAProject\obj\Debug\SDAProject.pdb
