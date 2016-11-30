@@ -3,30 +3,36 @@
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:IConceptLattice.cs" caret="290" fromTop="11" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:JsonModel.cs" caret="381" fromTop="17" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:input.txt" caret="63" fromTop="2" />
-    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:PythonScriptRunner.cs" caret="2885" fromTop="38" />
-    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:FileConversionUtility.cs" caret="1593" fromTop="41" />
     <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Program.cs" caret="364" fromTop="7" />
-    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:LogProcessor.cs" caret="850" fromTop="17" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:IPythonScriptRunner.cs" caret="159" fromTop="8" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:ILogProcessor.cs" caret="159" fromTop="8" />
-    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.Designer.cs" caret="4436" fromTop="101" />
+    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.Designer.cs" caret="4447" fromTop="101" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:Program.cs" caret="714" fromTop="4" />
-    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.cs" caret="6695" fromTop="23" />
-    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:ARFFileWriter.cs" caret="4153" fromTop="23" />
+    <File id="1C476D2E-F84F-4353-9DF1-17674A0CC5D0/f:FileUtility.cs" caret="1593" fromTop="37" />
+    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:PythonScriptRunner.cs" caret="0" fromTop="0" />
+    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:FileConversionUtility.cs" caret="2286" fromTop="24" />
+    <File id="1C476D2E-F84F-4353-9DF1-17674A0CC5D0/f:Program.cs" caret="372" fromTop="16" />
+    <File id="1C476D2E-F84F-4353-9DF1-17674A0CC5D0/f:LogCrawler.cs" caret="930" fromTop="8" />
+    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:LogProcessor.cs" caret="5107" fromTop="17" />
+    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:ARFFileWriter.cs" caret="3893" fromTop="9" />
+    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.cs" caret="7679" fromTop="6" />
   </RecentFiles>
   <RecentEdits>
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:input.txt" caret="336" fromTop="15" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:IConceptLattice.cs" caret="159" fromTop="8" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:JsonModel.cs" caret="221" fromTop="12" />
-    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:LogProcessor.cs" caret="2558" fromTop="12" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:ILogProcessor.cs" caret="159" fromTop="8" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:IPythonScriptRunner.cs" caret="159" fromTop="8" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:PythonScriptRunner.cs" caret="1365" fromTop="15" />
     <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Program.cs" caret="364" fromTop="7" />
     <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:Program.cs" caret="3287" fromTop="18" />
-    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:FileConversionUtility.cs" caret="1712" fromTop="18" />
-    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.Designer.cs" caret="4953" fromTop="39" />
-    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.cs" caret="5175" fromTop="10" />
-    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:ARFFileWriter.cs" caret="2297" fromTop="17" />
+    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.Designer.cs" caret="4964" fromTop="39" />
+    <File id="1C476D2E-F84F-4353-9DF1-17674A0CC5D0/f:FileUtility.cs" caret="1593" fromTop="12" />
+    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:ARFFileWriter.cs" caret="2439" fromTop="8" />
+    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:FileConversionUtility.cs" caret="2198" fromTop="21" />
+    <File id="F4952C1C-954B-48E1-AA10-81E1310323AC/f:Form1.cs" caret="6017" fromTop="12" />
+    <File id="1C476D2E-F84F-4353-9DF1-17674A0CC5D0/f:Program.cs" caret="372" fromTop="16" />
+    <File id="622D9F7C-62E4-43C4-AB70-61170912544F/f:LogProcessor.cs" caret="5267" fromTop="20" />
+    <File id="1C476D2E-F84F-4353-9DF1-17674A0CC5D0/f:LogCrawler.cs" caret="1103" fromTop="10" />
   </RecentEdits>
 </RecentFiles>

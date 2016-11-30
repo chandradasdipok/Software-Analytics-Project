@@ -73,7 +73,8 @@ namespace WindowsFormsApplication1
             var map = new Dictionary<Concept, Node>();
             foreach (var concept in concepts)
             {
-                String txt = "(";
+                String nodeIdLabel = "Id="+(_nodeConcepts.Count() + 1).ToString();
+                String txt = nodeIdLabel+"\n(";
                 foreach (var intent in concept.Intents)
                 {
                     txt = txt + intent + " ";
@@ -147,11 +148,17 @@ namespace WindowsFormsApplication1
             textBox2.Clear();
             saveFileDialog1.ShowDialog();
             var filePath = saveFileDialog1.FileName;
-            new ARFFileWriter().WriteARFFile(filePath
-                                             , _nodeConcepts.ToArray()[parentNodeId].Concept,
-                                             _nodeConcepts.ToArray()[childNodeId].Concept,
-                                             _controller._transactions, _controller._logModels);
-
+            try
+            {
+                new ARFFileWriter().WriteARFFile(filePath
+                                                 , _nodeConcepts.ToArray()[parentNodeId].Concept,
+                                                 _nodeConcepts.ToArray()[childNodeId].Concept,
+                                                 _controller._transactions, _controller._logModels);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Cannot Create ARFF File... No similar contextual factor foun");
+            }
         }
 
 
@@ -247,12 +254,13 @@ namespace WindowsFormsApplication1
 
         private void ConfigurePath()
         {
-            string basePath = @"I:\ASR Analytics\Analytics\";
+            string basePath = //@"I:\ASR Analytics\Analytics\";
+                @"E:\MSSE Program\MSSE 2nd Semester\Software Analytics\project\Software-Analytics\logdata\test_data\";// @"I:\ASR Analytics\Analytics\";
             LogStatementFilePath = basePath + "log.txt"; //user given
             TransactionFilePath = basePath + "transaction.json"; //user given and should be in json format
 
             PythonInputDataCSVFilePath = basePath + "pythoninputdata.csv";
-            PythonInputDataCSVFilePathInUnixFormat = "I:/ASR Analytics/Analytics/" + "pythoninputdata.csv";
+            PythonInputDataCSVFilePathInUnixFormat = "E:/MSSE Program/MSSE 2nd Semester/Software Analytics/project/Software-Analytics/logdata/test_data/" + "pythoninputdata.csv";// "I:/ASR Analytics/Analytics/" + "pythoninputdata.csv";
             FCAFilePath = basePath + "fca.txt";
             LatticeFilePath = basePath + "lattice.txt";
             PythonScriptFilePath = basePath + "python_script.py";

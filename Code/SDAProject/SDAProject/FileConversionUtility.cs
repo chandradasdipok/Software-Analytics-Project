@@ -34,7 +34,7 @@ namespace SDAProject
                 String row = "";
                 for (int i = 0; i < logModels.Count(); i++)
                 {
-                    row += ",";
+                    row += ", ";
                 }
                 foreach (var logData in transaction.LogDataList)
                 {
@@ -49,6 +49,14 @@ namespace SDAProject
                         row += "X";
                     }
                 }
+                string tempRow = "";
+                for (int i = 0; i < row.Length; i++)
+                {
+                    if(row[i]==' ')
+                        continue;
+                    tempRow += row[i];
+                }
+                row = tempRow;
                 row = "t" + transaction.Id + row + "\n";
                 text += row;
             }

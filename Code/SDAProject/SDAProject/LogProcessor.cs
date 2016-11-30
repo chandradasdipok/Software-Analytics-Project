@@ -142,7 +142,8 @@ namespace SDAProject
                 LogModel.Statement.Split('+').Where(s => s.Trim().StartsWith("\"") && s.Trim().EndsWith("\""));
             foreach (var str in staticStringList)
             {
-                logString = logString.Replace(str.Trim('"'), "#");
+               // var temp = str.Trim('\"');
+                logString = logString.Replace(str.Trim(' ').Trim('\"'), "#");
             }
             foreach (var contextualValue in logString.Split('#'))
             {

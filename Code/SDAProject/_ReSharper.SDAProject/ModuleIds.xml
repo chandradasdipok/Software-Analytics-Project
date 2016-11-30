@@ -1,4 +1,5 @@
 <Modules>
   <Module PersistentId="622D9F7C-62E4-43C4-AB70-61170912544F" ModuleId="SDAProject" />
   <Module PersistentId="F4952C1C-954B-48E1-AA10-81E1310323AC" ModuleId="WindowsFormsApplication1" />
+  <Module PersistentId="1C476D2E-F84F-4353-9DF1-17674A0CC5D0" ModuleId="LogPreprocessor" />
 </Modules>
